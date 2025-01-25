@@ -41,12 +41,43 @@ h3 {
 }
 
 button {
-    margin-top: 70px;
-    background-color: bisque;
+    margin-top: 60px;
+    background-color: #975220;
+    border: 1px solid #975220;
+    height: 40px;
+    width: 400px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(254, 234, 208);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.980);
 }
 
 input[type="text"] {
-    background-color: bisque;
+    background-color: rgb(254, 234, 208);
+    height: 40px;
+    width: 400px;
+    border: 1.5px solid #8B4513;
+    color: #975220;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    margin-top: 25px;
+    color: #975220;
+}
+
+::placeholder {
+    color: rgb(239, 178, 117);
 }
 
 .calculation-container {
