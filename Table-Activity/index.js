@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!inputCondition) {
             const tableData = document.getElementsByTagName("td")
             if (currentTD % 6 != 0) {
-                tableData[currentTD].style.background = "rgb(254, 234, 208)"
-                tableData[currentTD].style.color = "#975220"
+                tableData[currentTD].style.background = "bisque"
+                tableData[currentTD].style.color = "#8B4513"
             }
             Array.from(tableData).forEach((td, tdIndex) => {
                 if (tdIndex % 6 == 0 && secondNumber == parseInt(td.textContent)) {
