@@ -1,3 +1,61 @@
+body {
+    background-color: rgb(253, 237, 217);
+    margin: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
 table, th, tr, td {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 176, 97);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #8B4513;
+}
+
+table {
+    background-color: bisque;
+    height: 700px;
+    width: 900px;
+    table-layout: fixed;
+}
+
+th, td strong {
+    font-size: 50px;
+    color: #975220;
+}
+
+h2 {
+    font-size: 35px;
+    color: #975220;
+    margin-bottom: 100px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #975220;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 70px;
+    background-color: bisque;
+}
+
+input[type="text"] {
+    background-color: bisque;
+}
+
+.calculation-container {
+    background-color: rgb(255, 206, 145);
+    height: 700px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
