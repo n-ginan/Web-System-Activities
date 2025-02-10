@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.form-container {
+    height: 360px;
+    width: 500px;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+form {
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
